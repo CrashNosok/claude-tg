@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local credentials and environment variants (keep the public template)
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Runtime logs, transcripts, and terminal captures
+*.log.*
+logs/
+*.jsonl
+claude-log-*.md
+capture-pane*
